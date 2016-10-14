@@ -1,0 +1,138 @@
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100% !important;
+}
+
+.ExternalClass p {
+    MARGIN: 0px;
+}
+
+body {
+    -webkit-animation: bugfix infinite 1s;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    background: #ffffff;
+    min-width: 300px;
+}
+
+body[yahoo] .gmailFix {
+    width: 100% !important;
+    min-width: 300px !important;
+    padding: 0 !important;
+    float: none !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    border-spacing: 0;
+}
+
+table td {
+    border-collapse: collapse;
+    mso-table-lspace: 0;
+    mso-table-rspace: 0;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+    display: block;
+}
+
+a[href^=tel] {
+    color: #000001 !important;
+}
+
+*[id]#outlook a {
+    padding: 0;
+}
+
+*[class].ReadMsgBody {
+    width: 100%;
+}
+
+*[class].appleBody a {
+    color: #000001;
+    text-decoration: none;
+}
+
+*[class].appleFooter a {
+    color: #999999;
+    text-decoration: none;
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+label {
+    -webkit-tap-highlight-color: transparent;
+}
+
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+*[class].ee_dynamic,
+*[class].ee_element,
+*[class].ved_container {
+    width: 100% !important;
+}
+*[class].productfeed2x2 img,
+*[class].productfeed4x1 img {
+    width: 100% !important;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/31FD94_5_0.eot);
+    src: url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/31FD94_5_0.eot?#iefix) format('embedded-opentype'), 
+    url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/31FD94_5_0.woff) format('woff'), 
+    url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/31FD94_5_0.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Velino Display';
+    src: url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/velino_display-medium-webfont.eot);
+    src: url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/velino_display-medium-webfont.eot?#iefix) format('embedded-opentype'), 
+    url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/velino_display-medium-webfont.woff) format('woff'), 
+    url(https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/static-content/creative/font/velino_display-medium-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen {
+    body {
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: always;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html {
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: always;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

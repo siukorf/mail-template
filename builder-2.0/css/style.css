@@ -1,0 +1,215 @@
+/********************/
+/* GENERAL SETTINGS */
+/********************/
+
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0 0 200px 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 0 0 15px 0;
+    cursor: default;
+}
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.clear {
+    clear: both;
+}
+.button {
+    height: 22px;
+    padding: 0 10px 0 10px;
+    line-height: 22px;
+    background: #ffffff;
+    font-size: 12px;
+    border: 0;
+    outline: 1px solid #000000;
+    margin: 0 0 1px 0;
+}
+.button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+.code {
+    padding: 15px;
+    border: 1px solid #f4f4f4;
+    max-width: 95%;
+    max-height: 360px;
+    overflow: auto;
+    margin: 0 15px 25px 0;
+    white-space: nowrap;
+    background: #ffffff;
+}
+.code-holder {
+    padding: 0 0 5px 0;
+}
+/********************/
+/* EXPANDABLE LIST  */
+/********************/
+
+#listContainer {
+    margin: 15px;
+}
+#expList ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+#expList p {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#expList li {
+    line-height: 150%;
+    text-indent: 0px;
+    background-position: 1px 8px;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 100;
+}
+#expList li li {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: text !important;
+}
+/* Collapsed state for list element */
+
+/* Expanded state for list element
+/* NOTE: This class must be located UNDER the collapsed one */
+
+#expList .expanded {
+    background: #f4f4f4 url('expanded.png') no-repeat !important;
+    background-position: 2px 8px !important;
+}
+#expList {
+    clear: both;
+}
+.listControl {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+.listControl a {
+    border: 1px dotted #555555;
+    color: #555555;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin-right: 5px;
+    padding: 4px 10px;
+    cursor: default !important;
+}
+.listControl a:hover {
+    background-color: #ebeff1;
+    color: #222222;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* Prettyprint / Prettify */
+.pln {
+    color: #000
+}
+@media screen {
+    .str {
+        color: #080
+    }
+    .kwd {
+        color: #008
+    }
+    .com {
+        color: #800
+    }
+    .typ {
+        color: #606
+    }
+    .lit {
+        color: #066
+    }
+    .pun, .opn, .clo {
+        color: #660
+    }
+    .tag {
+        color: #16b9f5
+    }
+    .atn {
+        color: #606
+    }
+    .atv {
+        color: #080
+    }
+    .dec, .var {
+        color: #606
+    }
+    .fun {
+        color: red
+    }
+}
+@media print, projection {
+    .str {
+        color: #060
+    }
+    .kwd {
+        color: #006;
+        font-weight: bold
+    }
+    .com {
+        color: #600;
+        font-style: italic
+    }
+    .typ {
+        color: #404;
+        font-weight: bold
+    }
+    .lit {
+        color: #044
+    }
+    .pun, .opn, .clo {
+        color: #440
+    }
+    .tag {
+        color: #006;
+        font-weight: bold
+    }
+    .atn {
+        color: #404
+    }
+    .atv {
+        color: #060
+    }
+}
+pre.prettyprint {
+    padding: 2px;
+    border: 1px solid #888
+}
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0
+}
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+    list-style-type: none
+}
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: #eee
+}
